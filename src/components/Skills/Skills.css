@@ -1,0 +1,56 @@
+.skills{
+    background-color: #333;
+}
+.skills .skill{
+    padding: 80px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    gap: 100px;
+}
+.skills .skill .txt h1{
+    color: white;
+    font-size: 25px;
+    border-bottom: 4px solid rgb(91, 248, 195);
+    padding: 0 0 7px 0;
+}
+.skills .skill .txt ul{
+    padding: 20px 0 0 0;
+}
+.skills .skill .txt ul li{
+    color: white;
+    padding: 2px 0;
+    font-size: 18px;
+}
+.skills .skill .chart{
+    width: 80%;
+    height: 100%;
+}
+@media(max-width: 820px){
+    .skills .skill .txt ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .skills .skill{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .skill .chart{
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    .skills .skill .txt h1{
+        font-size: 20px;
+    }
+    .skills .skill .txt ul li{
+        font-size: 16px;
+    }
+}
+

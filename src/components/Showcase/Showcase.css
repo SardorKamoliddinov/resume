@@ -1,0 +1,50 @@
+.showcase{
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/05/17/38/sunset-8432159_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    padding: 0 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+.showcase .container h1{
+    font-weight: 700;
+    font-size: 62px;
+}
+.showcase .container p{
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+.showcase .container hr{
+    margin: 40px 0;
+}
+.showcase .container i{
+    font-size: 35px;
+    padding: 0 20px;
+} 
+.showcase .container i:hover{
+    color: aquamarine;
+    transition: .3s;
+}
+@media(max-width: 768px){
+    .showcase .container h1{
+        font-size: 35px;
+    }
+    .showcase .container p{
+        font-size: 16px;
+    }
+    .showcase .container i{
+        font-size: 25px;
+        padding: 0 10px;
+    }
+
+}

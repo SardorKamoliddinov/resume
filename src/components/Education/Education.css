@@ -1,0 +1,40 @@
+.education{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.education .edu{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 80px 20px;
+    justify-content: space-between;
+}
+.education .edu .astrum h1{
+    font-size: 25px;
+    border-bottom: 4px solid rgb(91, 248, 195);
+    padding: 7px 0;
+}
+.education .edu .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.education .edu .info h1{
+    font-size: 25px;
+}
+.education .edu .info h2{
+    font-size: 16px;
+}
+.education .edu .info h3{
+    font-size: 15px;
+}
+@media(max-width: 768px){
+    .education .edu{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+@media(max-width: 400px){
+    .education .edu .astrum h1{
+        font-size: 20px;
+    }
+}
