@@ -1,5 +1,5 @@
 .showcase{
-    background-image: url('https://cdn.pixabay.com/photo/2023/12/05/17/38/sunset-8432159_1280.jpg');
+    background-image: url('./../../images/showcase-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
